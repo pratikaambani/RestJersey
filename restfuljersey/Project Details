@@ -1,0 +1,15 @@
+Project - 1 :
+com.javatpoint.rest.Hello.java 
+is at server side and we assume that server is up.
+
+i> Using URL we get value
+URL = http://localhost:8080/restfuljersey/rest/hello/
+
+Project - 2 :
+ii> Using following class also we can get value, 
+simply add jersey-client.jar on client
+
+com.javatpoint.restclient.ClientTest.java 
+is at client side and can be anywhere at remote location 
+ClientTest gets required details from server(hello.java)
+
